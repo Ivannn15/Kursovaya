@@ -193,3 +193,30 @@ abousUs ****************
 .container_from_aboutUs h4{
     color: #522473;
 }
+
+/*************************** 
+**************************** 
+writeUs ****************
+**************************** 
+***************************/
+
+.writeUs_container{
+    margin-top: 5% !important;
+    display: flex;
+    justify-content: center;
+}
+
+.writeUs_container form{
+    width: 600px;
+}
+
+.writeUs_container form .input_string{
+    border-color: #522473;
+}
+
+.writeUs_container button{
+    margin-left: 50%; 
+    background-color: #4BBFAA; 
+    border: 0px; 
+    font-size: 15px;
+}

@@ -220,3 +220,44 @@ writeUs ****************
     border: 0px; 
     font-size: 15px;
 }
+
+/*************************** 
+**************************** 
+writeUs ****************
+**************************** 
+***************************/
+
+.container_left_FromPnews{
+    margin-left: 10%;
+}
+
+.image_from_Pnews img{
+    height: 300px;   
+}
+
+.icon_from_Pnews {
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%;
+}
+
+.container_right_FromPnews .card{
+    margin: 12%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    border: 3px solid #4BBFAA;
+}
+
+.container_from_Pnews h4{
+    color: #522473;
+}
+
+@media only screen and (max-width: 750px) {
+    .container_from_Pnews {
+      flex-direction: column;
+      align-items: center;
+    }
+    .container_right_FromPnews{
+        margin-top: 10%;
+    }
+}

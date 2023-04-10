@@ -10,7 +10,7 @@ html, body {
     align-items: center;
 }
   
-  .block {
+.block {
     text-align: center;
     font-size: 35px;
     color: white;
@@ -21,7 +21,7 @@ html, body {
     height: 200px;
     margin: 15px;
     background-color: #522473;
-  }
+}
 
 .list_items {
     width: 60%;
@@ -260,4 +260,31 @@ writeUs ****************
     .container_right_FromPnews{
         margin-top: 10%;
     }
+}
+
+/*************************** 
+**************************** 
+adminIndex ****************
+**************************** 
+***************************/
+
+.wrapper_f_adminInd {
+    margin-top: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+  
+.wrapper_f_adminInd .block {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 150px;
+    margin: 15px;
+    background-color: #522473;
 }

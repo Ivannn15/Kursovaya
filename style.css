@@ -288,3 +288,45 @@ adminIndex ****************
     margin: 15px;
     background-color: #522473;
 }
+
+/*************************** 
+**************************** 
+calendar_event ****************
+**************************** 
+***************************/
+
+.day_of_week{
+    background-color: #4BBFAA; 
+    width: 12.9%; 
+    text-align: center; 
+    height: 40px; 
+    color: #522473; 
+    text-align: center; 
+    line-height: 40px;
+    margin-left: 1%;
+}
+
+.days {
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.day {
+    justify-content: center;
+    align-items: center;
+    width: calc(20% - 10px);
+    width: 13%;
+    margin-bottom: 20px;
+}
+
+.day hr{
+    border: solid 5px;
+}
+
+.day .hr_bottom{
+    border: solid 2px;
+}
